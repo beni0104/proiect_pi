@@ -5,6 +5,7 @@ public class DataSingleton {
 		
 		private String userName;
 		private String locatie;
+		private int uid;
 		
 		private DataSingleton() {};
 		public static DataSingleton getInstance() {
@@ -23,6 +24,10 @@ public class DataSingleton {
 		public void setLocatie(String locatie) {
 			this.locatie = locatie;
 		}
-		
-		
+		public int getUid() {
+			return uid;
+		}
+		public void setUid(int uid) {
+			this.uid = uid;
+		}
 }

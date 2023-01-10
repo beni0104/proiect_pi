@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddOfferController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="45.0" prefWidth="540.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="20.0" prefWidth="75.0" text="Locatie:" textFill="#0598ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfLocatie" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="540.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="67.0" text="Imagine:" textFill="#0598ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfImagine" prefHeight="25.0" prefWidth="447.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="145.0" prefWidth="540.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="92.0" text="Descriere:" textFill="#0598ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="taDescriere" prefHeight="145.0" prefWidth="420.0" wrapText="true" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="540.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="153.0" text="Pret pe noapte (in $):" textFill="#0598ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="spinnerPret" prefHeight="25.0" prefWidth="71.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="540.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="137.0" text="Numarul de locuri:" textFill="#0598ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="spinnerNrLocuri" prefHeight="25.0" prefWidth="64.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="540.0" style="-fx-spacing: 30;">
+         <children>
+            <Button fx:id="addOfferBtn" mnemonicParsing="false" onAction="#addOffer" prefHeight="35.0" prefWidth="125.0" text="Adauga oferta" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

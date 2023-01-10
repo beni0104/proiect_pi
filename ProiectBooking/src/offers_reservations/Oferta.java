@@ -6,7 +6,6 @@ public class Oferta {
 	String image;
 	String descriere;
 	int locuriTotale;
-	int locuriDisponibile;
 	
 	
 	
@@ -41,12 +40,5 @@ public class Oferta {
 	public void setLocuriTotale(int locuriTotale) {
 		this.locuriTotale = locuriTotale;
 	}
-	public int getLocuriDisponibile() {
-		return locuriDisponibile;
-	}
-	public void setLocuriDisponibile(int locuriDisponibile) {
-		this.locuriDisponibile = locuriDisponibile;
-	}
-	
 	
 }
