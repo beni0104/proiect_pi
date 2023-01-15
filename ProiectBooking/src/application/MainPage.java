@@ -463,7 +463,7 @@ public class MainPage implements Initializable{
 
     @FXML
     void goToHome(ActionEvent event) {
-    	
+    	comboBox.getSelectionModel().selectFirst();
     	offersContainer.getChildren().clear();
         lsOffers = offerList();
     	int column = 0;

@@ -58,6 +58,9 @@ public class AddOfferController {
     		    		
     		if(!rs.isBeforeFirst())
     		{
+    			if(tfLocatie.getText().compareTo("") ==0)
+    				AlertBox.display("Error", "Introduceti numele locatiei!");
+    			else {
     			PreparedStatement psinsert = null;
 				try {
 					rs.close();
@@ -66,7 +69,10 @@ public class AddOfferController {
 					psinsert = conn.prepareStatement(sqlinsert);
 					psinsert.setString(1, tfLocatie.getText());
 					psinsert.setString(2, taDescriere.getText());
-					psinsert.setString(3, tfImagine.getText());
+					if(tfImagine.getText().compareTo("") == 0)
+						psinsert.setString(3, "file:///C:/Users/szekr/eclipse-workspace/ProiectBooking/src/images/no-photo-available.png");
+					else
+						psinsert.setString(3, tfImagine.getText());
 					psinsert.setInt(4, spinnerNrLocuri.getValue());
 					psinsert.setInt(5, spinnerPret.getValue());
 					psinsert.execute();
@@ -76,6 +82,7 @@ public class AddOfferController {
 				} catch(SQLException e) {
 					System.out.println(e.toString());
 				}
+    			}
     		}else {
     			AlertBox.display("Error", "Locatia exista deja!");
     		}
