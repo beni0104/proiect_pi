@@ -13,3 +13,6 @@ Descriere proiect:
   Dupa rezervarea unei oferte utilizatorul primeste un popup cu confirmarea rezervarii (deoarece exista un numar limitat de locuri la fiecare locatie, asa ca daca si alti utilizatori si-au facut rezervari la acea locatie in acea perioada exista posibilitatea sa nu mai fie locuri libere pentru perioada selectata) si poate sa vizualizeze rezervarea la pagina "Rezervari" unde apare pretul total, perioada selectata, numarul de persoane si o optiune pentru anularea rezervarii.
   
   Adminul poate sa adauge si sa stearga (in partea de jos a paginii fiecarei oferte deschise) oferte.
+
+
+Pentru ca programul sa ruleze trebuie modificat path-ul fiecarei imagini in baza de date.
