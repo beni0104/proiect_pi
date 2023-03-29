@@ -68,6 +68,7 @@ public class Login {
         					String retrievedPassword = rs.getString("password");
         					if(retrievedPassword.equals(password)) {	 
         						try {
+        							assert password.equals(retrievedPassword) : "Logged in";
         							data.setUserName(rs.getString("Username"));
         							data.setUid(rs.getInt("ID"));
         							Parent root = FXMLLoader.load(getClass().getResource("MainPageScene.fxml"));						
@@ -127,6 +128,7 @@ public class Login {
 	    				String retrievedPassword = rs.getString("password");
 	    				if(retrievedPassword.equals(password)) { 
 							try {
+								assert password.equals(retrievedPassword) : "Logged in";
 								data.setUserName(rs.getString("Username"));
 								data.setUid(rs.getInt("ID"));
 								Parent root = FXMLLoader.load(getClass().getResource("MainPageScene.fxml"));						
