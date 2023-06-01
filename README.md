@@ -13,17 +13,19 @@ Descriere proiect:
   Dupa rezervarea unei oferte utilizatorul primeste un popup cu confirmarea rezervarii (deoarece exista un numar limitat de locuri la fiecare locatie, asa ca daca si alti utilizatori si-au facut rezervari la acea locatie in acea perioada exista posibilitatea sa nu mai fie locuri libere pentru perioada selectata) si poate sa vizualizeze rezervarea la pagina "Rezervari" unde apare pretul total, perioada selectata, numarul de persoane si o optiune pentru anularea rezervarii.
   
   Adminul poate sa adauge si sa stearga oferte (in partea de jos a paginii fiecarei oferte deschise).
-![adaugareFavorite](https://github.com/beni0104/proiect_pi/assets/105773450/41bc2db0-ff4d-466e-be32-dcae24cf3c0e)
-![adaugareOferta](https://github.com/beni0104/proiect_pi/assets/105773450/31ef3d16-26c1-4d83-a167-97df599b79fc)
-![listaFavorite](https://github.com/beni0104/proiect_pi/assets/105773450/fe571a36-8df3-4b8a-907b-f6a4c8767f34)
-![logatCaUser](https://github.com/beni0104/proiect_pi/assets/105773450/d9558ba8-1798-4967-bd5d-0db5c4c1aa1a)
-![login](https://github.com/beni0104/proiect_pi/assets/105773450/2a464383-6b55-4b24-9a76-cc328d1d66c8)
-![mesajEroare](https://github.com/beni0104/proiect_pi/assets/105773450/538f92fb-e534-4d88-8845-59fcf1e31a17)
-![mesajEroare2](https://github.com/beni0104/proiect_pi/assets/105773450/8edf5210-4c0d-4525-9db1-10f20e37d210)
-![ofertaDeschisa](https://github.com/beni0104/proiect_pi/assets/105773450/7b1d261d-a8d6-4bbb-ba1e-e1f1990cb03a)
-![rezervari](https://github.com/beni0104/proiect_pi/assets/105773450/2a6df6d9-f810-44eb-acf9-c4f3d9ec585b)
-![rezervaseSucces](https://github.com/beni0104/proiect_pi/assets/105773450/d44f55a7-a456-4458-9ae3-49eb10800a0e)
-![search](https://github.com/beni0104/proiect_pi/assets/105773450/3aeb54d6-d692-41d8-a114-bbfe58767656)
-![signup](https://github.com/beni0104/proiect_pi/assets/105773450/331aca78-8916-48cc-b9c9-c3ecac920083)
-![sortare](https://github.com/beni0104/proiect_pi/assets/105773450/f7417114-7dd2-4b5e-80e2-858a244f855a)
-![toateOfertele](https://github.com/beni0104/proiect_pi/assets/105773450/0af6aab7-f232-489e-a4e4-75df72efbcef)
+
+
+![mesajEroare2](https://github.com/beni0104/proiect_pi/assets/105773450/ca6634d5-9755-4a2c-b1cb-aa609f1f243d)
+![login](https://github.com/beni0104/proiect_pi/assets/105773450/cadedbd2-413b-430d-99a2-685dac07f6de)
+![signup](https://github.com/beni0104/proiect_pi/assets/105773450/f9cd7215-6c5e-47b8-9af1-e44dc826f070)
+![toateOfertele](https://github.com/beni0104/proiect_pi/assets/105773450/13add21a-46fd-442c-8864-1751eaa49cd5)
+![search](https://github.com/beni0104/proiect_pi/assets/105773450/a046bab3-a2fd-4314-830a-fd44810e9566)
+![ofertaDeschisa](https://github.com/beni0104/proiect_pi/assets/105773450/47ede6ee-ebdb-4f44-9c45-b4ae5e6d4571)
+![adaugareFavorite](https://github.com/beni0104/proiect_pi/assets/105773450/32f41a4f-349a-4886-9df4-040dc1249a73)
+![rezervaseSucces](https://github.com/beni0104/proiect_pi/assets/105773450/ab527f36-535f-40c8-abb3-7108cbd5458c)
+![listaFavorite](https://github.com/beni0104/proiect_pi/assets/105773450/85099f2d-4b4f-4df5-9181-9dfe266f0d2a)
+![rezervari](https://github.com/beni0104/proiect_pi/assets/105773450/43933dba-9a11-4fd4-8818-73a2ec7ae160)
+![adaugareOferta](https://github.com/beni0104/proiect_pi/assets/105773450/6e76628a-373c-4ea3-ac86-3d43708396df)
+![sortare](https://github.com/beni0104/proiect_pi/assets/105773450/0bb03531-b2b7-4c39-b6bc-6817de6d4b87)
+![logatCaUser](https://github.com/beni0104/proiect_pi/assets/105773450/4afc2ca5-52b1-4b70-aab1-0ca3c1939b12)
+![mesajEroare](https://github.com/beni0104/proiect_pi/assets/105773450/0dac5f87-66e9-4d51-909f-080254170127)
