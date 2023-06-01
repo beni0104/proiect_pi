@@ -14,8 +14,6 @@ Descriere proiect:
   
   Adminul poate sa adauge si sa stearga oferte (in partea de jos a paginii fiecarei oferte deschise).
 
-
-![mesajEroare2](https://github.com/beni0104/proiect_pi/assets/105773450/ca6634d5-9755-4a2c-b1cb-aa609f1f243d)
 ![login](https://github.com/beni0104/proiect_pi/assets/105773450/cadedbd2-413b-430d-99a2-685dac07f6de)
 ![signup](https://github.com/beni0104/proiect_pi/assets/105773450/f9cd7215-6c5e-47b8-9af1-e44dc826f070)
 ![toateOfertele](https://github.com/beni0104/proiect_pi/assets/105773450/13add21a-46fd-442c-8864-1751eaa49cd5)
@@ -29,3 +27,4 @@ Descriere proiect:
 ![sortare](https://github.com/beni0104/proiect_pi/assets/105773450/0bb03531-b2b7-4c39-b6bc-6817de6d4b87)
 ![logatCaUser](https://github.com/beni0104/proiect_pi/assets/105773450/4afc2ca5-52b1-4b70-aab1-0ca3c1939b12)
 ![mesajEroare](https://github.com/beni0104/proiect_pi/assets/105773450/0dac5f87-66e9-4d51-909f-080254170127)
+![mesajEroare2](https://github.com/beni0104/proiect_pi/assets/105773450/ca6634d5-9755-4a2c-b1cb-aa609f1f243d)
