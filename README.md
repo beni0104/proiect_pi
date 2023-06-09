@@ -1,5 +1,5 @@
 # proiectBooking
-## Note
+## IMPORTANT NOTE
 Pentru alte proiecte facute de mine sau in colaborare cu alte persoane puteti vedea pe profilul meu de GitHub.
 
 Proiect scris tot in Java (cu Spring):
