@@ -1,9 +1,10 @@
 # proiectBooking
 
-Tehnologii folosite: Java, JavaFX, SQL, JDBC
+## Tehnologii folosite
+Java, JavaFX, SQL, JDBC
 
 
-Descriere proiect:
+## Descriere proiect:
   Proiectul este o aplicatie desktop pentru planificarea unui sejur.
   
   La rularea fisierului Main avem posibilitatea de a ne loga cu un cont (de utilizator sau de admin), sau in cazul in care nu avem un cont, putem crea unul apasand pe butonul "Sign up". Putem crea doar cont de utilizator prin pagina de Sign Up, contul de admin fiind deja creat (username: beni parola: 123).
@@ -13,6 +14,8 @@ Descriere proiect:
   Dupa rezervarea unei oferte utilizatorul primeste un popup cu confirmarea rezervarii (deoarece exista un numar limitat de locuri la fiecare locatie, asa ca daca si alti utilizatori si-au facut rezervari la acea locatie in acea perioada exista posibilitatea sa nu mai fie locuri libere pentru perioada selectata) si poate sa vizualizeze rezervarea la pagina "Rezervari" unde apare pretul total, perioada selectata, numarul de persoane si o optiune pentru anularea rezervarii.
   
   Adminul poate sa adauge si sa stearga oferte (in partea de jos a paginii fiecarei oferte deschise).
+
+## Poze
 
 ![login](https://github.com/beni0104/proiect_pi/assets/105773450/cadedbd2-413b-430d-99a2-685dac07f6de)
 ![signup](https://github.com/beni0104/proiect_pi/assets/105773450/f9cd7215-6c5e-47b8-9af1-e44dc826f070)
