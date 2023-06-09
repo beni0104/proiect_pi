@@ -1,4 +1,10 @@
 # proiectBooking
+## Note
+Pentru alte proiecte facute de mine sau in colaborare cu alte persoane puteti vedea pe profilul meu de GitHub.
+
+Proiect scris tot in Java (cu Spring):
+AuctionHouse
+Link: https://github.com/beni0104/AuctionHouse
 
 ## Tehnologii folosite
 Java, JavaFX, SQL, JDBC
